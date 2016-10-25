@@ -1,0 +1,29 @@
+{
+  "name": "rainbot",
+  "version": "1.0.0",
+  "description": "Weather bot built using botler",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fyndme/bot-framework.git"
+  },
+  "author": "Adam Juhasz",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^6.0.45",
+    "botler": "1.0.5",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "ts-node": "1.6.0",
+    "typescript": "2.0.3"
+  },
+  "private": true,
+  "preferGlobal": false
+}
